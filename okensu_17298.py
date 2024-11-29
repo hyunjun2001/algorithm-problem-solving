@@ -1,23 +1,23 @@
 # 백준 오큰수 문제이다.
 # 문제 번호는 17298번
 
-# import sys
-# input = sys.stdin.readline
-#
-# n = int(input())
-# arr = list(map(int, input().split()))
-#
-# ans = [-1] * n
-#
-# for i in range(n):
-#     temp = n - 1
-#     while temp != i:
-#         if arr[temp] > arr[i]:
-#             ans[i] = arr[temp]
-#         temp -= 1
-#
-# for i in ans:
-#     print(i, end=" ")
+import sys
+input = sys.stdin.readline
+
+n = int(input())
+arr = list(map(int, input().split()))
+
+ans = [-1] * n
+
+for i in range(n):
+    temp = n - 1
+    while temp != i:
+        if arr[temp] > arr[i]:
+            ans[i] = arr[temp]
+        temp -= 1
+
+for i in ans:
+    print(i, end=" ")
 
 
 

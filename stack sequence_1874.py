@@ -38,3 +38,36 @@ for i in range(N):
 
 if result:
     print(ans)
+
+
+# 아래가 시간이 거의 1/20로 줄어드는 훨씬 나은 접근법이다.
+
+# 연습장임다
+
+import sys
+input = sys.stdin.readline
+
+n = int(input())
+
+stack, ans, temp = [], [], True
+
+top = 1
+
+for _ in range(n):
+    num = int(input())
+    while top <= num:
+        stack.append(top)
+        ans.append('+')
+        top += 1
+    if stack[-1] == num:
+        stack.pop()
+        ans.append('-')
+    else:
+        temp = False
+        break
+
+if temp:
+    for i in ans:
+        print(i)
+else:
+    print("NO")

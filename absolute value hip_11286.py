@@ -25,3 +25,22 @@ list 또는 deque 기반의 큐를 사용하는 경우: if queue 방식이 더 �
 
 queue 클래스는 python의 __bool__ 구현이 안 되어 있어 if queue 이런식으로 불가능
 '''
+
+# 이거 heapq로 구현해야 훨씬 효율적, 코테에선 PriorityQueue 잘 안 쓴대 GPT가
+
+import sys
+import heapq
+
+input = sys.stdin.readline
+heap = []
+
+n = int(input())
+for i in range(n):
+    num = int(input())
+    if num == 0:
+        if heap:
+            print(heapq.heappop(heap)[1])
+        else:
+            print(0)
+    else:
+        heapq.heappush(heap, (abs(num), num))

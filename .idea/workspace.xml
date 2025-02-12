@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0bcdc78-c841-4dbd-83ba-c39cc82acf64" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/진씨의 복학 전 알고리즘 공부.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/진씨의 복학 전 알고리즘 공부.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon/.idea/Baekjoon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/.idea/Baekjoon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2p0wHrZysjL24nQOPkPUeu1zI9z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,6 +36,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.순열의 순서_1722.executor": "Run",
+    "Python.연습장.executor": "Run",
+    "Python.이친수_2193.executor": "Run",
     "Python.조약돌 꺼내기_13251.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -49,7 +47,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,6 +74,10 @@
       <updated>1731916215196</updated>
       <workItem from="1735789397889" duration="1495000" />
       <workItem from="1739152745557" duration="7036000" />
+      <workItem from="1739162967090" duration="13000" />
+      <workItem from="1739163382243" duration="1129000" />
+      <workItem from="1739233374972" duration="2169000" />
+      <workItem from="1739235582350" duration="7558000" />
     </task>
     <servers />
   </component>
@@ -95,6 +97,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm_problem_solving$__13251.coverage" NAME="조약돌 꺼내기_13251 Coverage Results" MODIFIED="1739153575727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
+    <SUITE FILE_PATH="coverage/algorithm_problem_solving$_2193.coverage" NAME="이친수_2193 Coverage Results" MODIFIED="1739240334162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
+    <SUITE FILE_PATH="coverage/algorithm_problem_solving$.coverage" NAME="연습장 Coverage Results" MODIFIED="1739247230305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/algorithm_problem_solving$__1722.coverage" NAME="순열의 순서_1722 Coverage Results" MODIFIED="1739160495542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
   </component>
 </project>
